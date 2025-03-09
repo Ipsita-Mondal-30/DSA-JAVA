@@ -76,14 +76,20 @@
 //         C obj = new C();
 //     }
 // }
-public class Test {
-    public static void modify(int arr[]) {
-        arr[0] = arr[0] + arr[arr.length - 1];
-    }
+// public class Test {
+//     public static void modify(int arr[]) {
+//         arr[0] = arr[0] + arr[arr.length - 1];
+//     }
     
+//     public static void main(String[] args) {
+//         int arr[] = {10, 20, 30, 40};
+//         modify(arr);
+//         System.out.println(arr[0]);
+//     }
+// }
+public class Test {
     public static void main(String[] args) {
-        int arr[] = {10, 20, 30, 40};
-        modify(arr);
-        System.out.println(arr[0]);
+        int a = 5, b = 7;
+        System.out.println(a ^ b ^ a);
     }
 }
